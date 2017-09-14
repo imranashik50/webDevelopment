@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="index.css"> <!-- css link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+	<nav class="navbar navbar-default navbar-fixed-top" >
+		<div class="row"> <!-- header -->
+			<div class="col-md-2"> </div>
+			<div class="col-md-10">
+				<div class="col-md-2"><img  src="Others/bulid.PNG"> </div>
+				<div class="col-md-8"> 
+						<div class="row" id="search">
+           						<div id="custom-search-input">
+                           		<div class="input-group col-md-10">
+                                <input type="text" class="search-query form-control" placeholder="Search" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button> <!--Used glyphicon as pic is not available-->
+                                </span>
+                            </div>
+                        </div>
+					</div>
+				</div>
+				<div class="col-md-2"><img  src="Others/man.PNG"> </div>
+			</div>
+	</div>
+        <div class="container-fluid" id="nav">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> <!-- Toggle dropdown ends -->
+           
+          </div> <!-- navbar header ends -->
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+            <li style="visibility: hidden;">catei</li>
+              <li><a href="#">Categories</a></li> <!-- category -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right"> <!-- right side 3 elements -->
+            	<li><a href="#">Quick Order </a></li>
+            	<li><a href="#">Track Order </a></li>
+              <li><a href="#">Log In / Sign Up</a></li>
+            </ul>
+          </div><!--/.nav-collapse ends-->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <div class="container-fluid tableMain">
+      	<div class="row ">
+      		<div class="col-md-2">
+      			<div class="row" id="position">
+      			<div class="col-md-2" ></div>
+      				<div class="col-md-10" id="category">
+      				<a href="#"  style="height:10px">Hardware<img src="ICONS/HARDWARE.png" id="catImg" align="right"><hr></a>
+      				<a href="#">Office Supplies <img src="ICONS/OFFICE SUPPLIES.png" id="catImg" align="right"><hr/></a>
+      				<a href="#"  style="height:10%">Power Tools <img src="ICONS/POWER TOOL.png" id="catImg" align="right"></a><hr/>
+      				<a href="#">Security <img src="ICONS/SECURITY.png" id="catImg" align="right"></a><hr/>
+      				<a href="#">Paint <img src="ICONS/PAINT.png" id="catImg" align="right"></a><hr/>
+      				<a href="#">Nuts & Bolts <img src="ICONS/NUTS _ BOLTS.png" id="catImg" align="right"></a><hr/>
+      				<a href="#">Lighting <img src="ICONS/LIGHTING.png" id="catImg" align="right"></a><hr/>
+      				<a href="#">Electronics <img src="ICONS/ELECTRONICS.png" id="catImg" align="right"></a><hr/>
+      				<a href="#">Electrical <img src="ICONS/ELECTRICALS.png" id="catImg" align="right"></a><hr/>
+      				<a href="#">Equipment& Mac..<img src="ICONS/EQUIPMENTS _ MECHNERIES.png" id="catImg" align="right"></a>
+      				</div>
+      			</div>
+      		</div>
+
+
+      		<div class="col-md-10">
+      		
+      		 <div class="row" style="margine-left:10px;"> 
+      		 	<div class="col-md-4"> 
+      		 	  <b>Showing Results - 20 of 100</b> 
+                </div>  
+
+      		 	<div class="col-md-8">
+
+      		 	 <button class="btn btn-info button5" type="button">Relevance
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+      		 	<button class="btn btn-info button4">
+      		 		<span class="glyphicon glyphicon-th"></span>
+      		 	</button>
+
+      		 	<button class="btn btn-info button4">
+      		 		<span class="glyphicon glyphicon-tasks"></span>
+      		 	</button>
+      		 	</div>
+
+      		</div>
+      		  
+      		 <!--  row for Relevance ends-->
+      		<div class="row" style="margine-left:5px;">
+      		  <div class="col-md-2 productbox TableBorder">
+      		  <!-- main products list starts-->
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/2.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button> <!-- heart button -->
+
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Penta.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+				<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Mammut.gif" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/twcc404b_400x400.png" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive"><img src="Brands/bell-logo.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		
+
+      		  <!-- 2nd row of products -->
+      		  
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/3M-logo_400x400_acf_cropped.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button> <!-- heart button -->
+
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>  
+      		  
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/bessy-logo-12g.gif" id="BrandImg">     			
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+				<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/blackdecker-brand.gif" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/deltanalogo.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      				<div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Dewalt.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      				<div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+
+      		  <!-- 3rd row starts -->
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/download.png" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button> <!-- heart button -->
+
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		  
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/hickory-hardware.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+					<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Jura.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/large_logo.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Makita.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			 <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+
+      		  <!-- 4th row starts -->
+
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Mecer-01.png" id="BrandImg">
+      			</div>
+      			</a>
+      			    <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button> <!-- heart button -->
+
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		  
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#"><div class="imgthumb img-responsive">
+      			<img src="Brands/mfg-falcon.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			     <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+					<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/novalogo.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      			 <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/og_logo.png" id="BrandImg">
+      			</div>
+      			</a>
+      				<div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		   <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/QNAP-01.png" id="BrandImg">
+      			</div>
+      			</a>
+      			 <div class="caption">
+						<h5>Lorem ipsum dolor sit amet</h5>
+					</div>
+      			<button class="btn btn-default button6"><span class="glyphicon glyphicon-heart-empty"></span></button>
+      			<button class=" button3">ADD TO CART</button>
+      		  </div>
+      		  
+      	 </div>
+      	 		<div class="row" style="margin-top:20px; margin-bottom:20px">
+
+      	 		<div id="newNav">
+      	 		<nav class="navbar navbar-default" id="nav">
+      	 		<ul class="nav navbar-nav navbar-left">
+      	 			<li><a href="#">Brands</a></li>
+      	 		</ul>
+      	 			<ul class="nav navbar-nav navbar-right">
+      	 				<li style="margin-right:15px;"><a href="#">Show All</a></li>
+      	 			</ul>
+      	 		</nav>
+      	 			</div>
+
+      	 		<div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Mammut.gif" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		    <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Makita.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		 <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/QNAP-01.png" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		    <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/twcc404b_400x400.png" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		    <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Penta.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+
+      	 		</div>
+      		   <!-- brands ends -->
+
+      	 		<div class="row" style="margin-top:20px; margin-bottom:20px">
+      	 		<div id="newNav">
+      	 		<nav class="navbar navbar-default" id="nav">
+      	 		<ul class="nav navbar-nav navbar-left">
+      	 			<li><a href="#">Deal for the day</a></li>
+      	 		</ul>
+      	 			<ul class="nav navbar-nav navbar-right">
+      	 				<li style="margin-right:15px;"><a href="#">Show All</a></li>
+      	 			</ul>
+      	 		</nav>
+      	 			</div>
+
+      		    <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/download.png" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		  <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/2.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		    <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Penta.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		    <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/Jura.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      		    <div class="col-md-2 productbox TableBorder">
+      			<a href="#">
+      			<div class="imgthumb img-responsive">
+      			<img src="Brands/bell-logo.jpg" id="BrandImg">
+      			</div>
+      			</a>
+      		  </div>
+
+      	 		</div>
+      		  <!-- deal for today ends -->
+
+
+      		  </div> <!-- table 10md ends -->
+
+      	</div> <!-- total lower body row ends -->
+
+      </div> <!-- main container ends -->
+
+</div> <!-- full body container ends -->
+
+<div class="container-fluid" id="footer"> <!-- footer starts -->
+	<div class="row">
+	<div class="col-md-2"></div>
+
+	<div class="col-md-8">
+	<div class="row" style="display: flex;justify-content: center;">
+      	<div class="col-md-1 TableBorderFooter">
+      		<a href="#">
+      		<div class="imgthumb img-responsive">
+      		<img src="Others/Delivery.png" id="BrandImgFooter">
+      		</div>
+      		</a>
+      		      	<div class="caption">
+						<h6>24hrs Delevaey</h6>
+			</div>
+      	</div>
+
+      	<div class="col-md-1 TableBorderFooter">
+      		<a href="#">
+      		<div class="imgthumb img-responsive">
+      		<img src="Others/Payment.png" id="BrandImgFooter">
+      		</div>
+      		</a>
+      		      	<div class="caption">
+						<h6>Payment Option</h6>
+					</div>
+      	</div>
+
+      	<div class="col-md-1 TableBorderFooter">
+      		<a href="#">
+      		<div class="imgthumb img-responsive">
+      		<img src="Others/Customer Service.png" id="BrandImgFooter">
+      		</div>
+      		</a>
+      		      	<div class="caption">
+						<h6>Customer Service</h6>
+					</div>
+      	</div>
+
+      	<div class="col-md-1 TableBorderFooter">
+      		<a href="#">
+      		<div class="imgthumb img-responsive">
+      		<img src="Others/Catalog.png" id="BrandImgFooter">
+      		</div>
+      		</a>
+      		      	<div class="caption">
+						<h6>Large Section</h6>
+					</div>
+      	</div>
+
+      	<div class="col-md-1 TableBorderFooter">
+      		<a href="#">
+      		<div class="imgthumb img-responsive">
+      		<img src="Others/NAtionwide.png" id="BrandImgFooter">
+      		</div>
+      		</a>
+      		      	<div class="caption">
+						<h6>Nationwide Service</h6>
+					</div>
+      	</div>
+
+      	<div class="col-md-1 TableBorderFooter">
+      		<a href="#">
+      		<div class="imgthumb img-responsive">
+      		<img src="Others/Loyality.png" id="BrandImgFooter">
+      		</div>
+      		</a>
+      		      	<div class="caption">
+						<h6>Loyality Program</h6>
+					</div>
+      	</div>
+
+      	<div class="col-md-1 TableBorderFooter">
+      		<a href="#">
+      		<div class="imgthumb img-responsive">
+      		<img src="Others/Credit.png" id="BrandImgFooter">
+      		</div>
+      		</a>
+      		      	<div class="caption">
+						<h6>Credit Facility</h6>
+			</div>
+      	</div>
+
+	</div>
+	<hr>
+		<div class="row" style="margin-top:20px; margin-bottom:30px;">
+		<div class="col-md-2">
+			
+				<ul><a href="#">About</a></ul>
+				<ul><a href="#">Contact</a></ul>
+				<ul><a href="#">Blog</a></ul>
+				<ul><a href="#">News</a></ul>
+			
+		</div>
+		<div class="col-md-3">
+			
+				<ul><a href="#">FAQ</a></ul>
+				<ul><a href="#">Credit Fecility</a></ul>
+				<ul><a href="#">Sell with us</a></ul>
+				
+		</div>
+		<div class="col-md-2">
+			
+				<ul><a href="#">Option1</a></ul>
+				<ul><a href="#">Op - 2</a></ul>
+				<ul><a href="#">Op - 3</a></ul>
+				<ul><a href="#">Op - 4</a></ul>
+			
+		</div>
+		<div class="col-md-5" >Never miss out an offer, connect with US
+
+						<div class="row" id="search">
+           						<div id="custom-search-input">
+                           		<div class="input-group col-md-10">
+                                <input type="text" class="search-query form-control" placeholder="Email Address" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning" type="button">
+                                       Sign me up!
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+					</div>
+				<div style="margin-top:10px;">
+					<a href="#" style="margin-right:3%;"><i class="fa fa-facebook-official" style="font-size:22px;color:blue"></i></a>
+					<a href="#" style="margin-right:3%;"><i class="fa fa-instagram" style="font-size:22px"></i></a>
+					<a href="#" style="margin-right:3%;"><i class="fa fa-linkedin-square" style="font-size:22px;color:green"></i></a>
+					<a href="#" style="margin-right:3%;"><i class="fa fa-youtube-play" style="font-size:22px;color:red"></i></a>
+
+				</div>
+		</div>
+			
+		</div>
+		<div class="row" style="margin-bottom:30px;">
+			<div class="col-md-4"></div>
+			<div class="col-md-4" style="text-align: center">
+			<h5>Payment Options</h5>
+			<a href="#" style="margin-right:3%;"><i class="fa fa-cc-visa" style="font-size:20px;color:blue"></i></a>
+			<a href="#" style="margin-right:3%;"><i class="fa fa-cc-mastercard" style="font-size:20px;color:black"></i></a>
+			<a href="#" style="margin-right:3%;"><i class="fa fa-cc-amex" style="font-size:20px;color:blue"></i></a>
+			<a href="#" style="margin-right:3%;"><i class="fa fa-cc-paypal" style="font-size:20px;color:#3CC1F9"></i></a>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+			</div>
+
+	<div class="col-md-2"></div>
+		
+	</div>
+</div>
+ <script type="text/javascript">
+	function checkOffset() {
+  var a=$(document).scrollTop()+window.innerHeight;
+  var b=$('#footer').offset().top;
+  if (a<b) {
+    $('#category').css('bottom', '20px');
+  } else {
+    $('#category').css('bottom', (20+(a-b))+'px');
+  }
+}
+$(document).ready(checkOffset);
+$(document).scroll(checkOffset);
+ </script>
+	
+</body>
+</html>
